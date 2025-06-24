@@ -1,8 +1,11 @@
 import os
 import time
+
 usuarios = {} # Dicionário para armazenar usuários e senhas}
+
 def limpar_tela(): # Função para limpar a tela
     os.system('cls' if os.name == 'nt' else 'clear')
+    
 while True:
     limpar_tela()
     print("=============== BEM-VINDO AO GERENCIADOR DE TAREFAS ===============\n")
